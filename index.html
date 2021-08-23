@@ -1,0 +1,123 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Tela de Login</title>
+<style>
+    body{
+                height: 100vh;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                font-family: 'verdana';    
+}
+
+
+.divLogin{
+                width: 500px;
+                height: 400px;
+                background: #2B836A ;
+                border: 0;
+                border-radius: 10px;
+                
+            }
+.logo img{
+    
+    padding-left: 35px;
+    padding-top: 10px;
+    position: absolute;
+
+}
+.fontlogo{
+    color: aliceblue;
+    font-size: 35px;
+    padding-left: 32%;
+    padding-top: 14%;
+    position: relative;
+    padding-bottom: 60px;
+    
+    
+}
+form input {
+                margin: 0px 10px;
+                width: calc(70% - 40px);
+                padding: 7px 15px;
+                border: 0px;
+                border-radius: 15px;
+    
+            }
+
+form .btn_logar{
+                background:#73D5B9;
+                margin: 20px;
+                width: 100px;
+                color: #fff;    
+                border: 0px;
+                border-radius: 15px;
+                height: 30px;
+    
+            }
+
+
+#login{
+    padding-bottom: 10px;
+    padding-left: 24%;
+}
+
+#senha{
+    padding-left: 24%;
+}
+
+#botao{
+    padding-left: 38%;
+}
+
+.links a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    padding-left: 25%;
+    
+}
+    </style>
+    <script>
+        Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href>Why do I have this issue?</a>'
+})
+    </script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+<div class="divLogin">
+		<div class=logo>
+		  <img src="img/cat_icon_25.png" width="169" height="151">
+		  <div class=fontlogo>Saúde Pet</div>
+			</div>
+	<form action="index.php" method="post">
+        <div id=login>
+                <input type="email" name="email" placeholder="Digite seu e-mail" value="">             
+		</div>
+		<div id=senha>
+                <input type="password" name="senha" placeholder="Digite sua senha" value="">
+		</div>
+		<div id=botao>
+                <button class="btn_logar" type="submit" name="Entrar"  >Entrar</button>
+                </div>
+                    <div class="links">
+						<a href="crud/cadastro.php"> Clique aqui para se cadastrar</a>
+                    <br/>   
+                    	<a href="pagina/esqueci.html"> Esqueci a senha</a>
+                    <br/>   
+					</div>
+            </form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+			    height: 100vh;
+			    display:flex;
+			    align-items: center;
+			    justify-content: center;
+			    font-family: 'verdana';    
+}
+
+
+.divLogin{
+			    width: 500px;
+			    height: 400px;
+			    background: #2B836A	;
+			    border: 0;
+			    border-radius: 10px;
+				
+			}
+.logo img{
+	
+	padding-left: 35px;
+	padding-top: 10px;
+	position: absolute;
+
+}
+.fontlogo{
+	color: aliceblue;
+	font-size: 35px;
+	padding-left: 32%;
+	padding-top: 14%;
+	position: relative;
+	padding-bottom: 60px;
+	
+	
+}
+
+
+
+.btn_logar{
+			    background:#73D5B9;
+			    margin: 20px;
+			    width: 100px;
+			    color: #fff;    
+			    border: 0px;
+			    border-radius: 15px;
+			    height: 30px;
+	
+			}
+
+#botao a{
+	padding-left: 23%;
+	text-decoration: none;
+}

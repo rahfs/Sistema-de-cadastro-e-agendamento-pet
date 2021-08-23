@@ -1,0 +1,74 @@
+body{
+			    height: 100vh;
+			    display:flex;
+			    align-items: center;
+			    justify-content: center;
+			    font-family: 'verdana';    
+}
+
+
+.divLogin{
+			    width: 500px;
+			    height: 400px;
+			    background: #2B836A	;
+			    border: 0;
+			    border-radius: 10px;
+				
+			}
+.logo img{
+	
+	padding-left: 35px;
+	padding-top: 10px;
+	position: absolute;
+
+}
+.fontlogo{
+	color: aliceblue;
+	font-size: 35px;
+	padding-left: 32%;
+	padding-top: 14%;
+	position: relative;
+	padding-bottom: 60px;
+	
+	
+}
+form #inputs input{
+			    margin: 0px 10px;
+			    width: calc(70% - 40px);
+			    padding: 7px 15px;
+			    border: 0px;
+			    border-radius: 15px;
+	
+			}
+#inputs{
+	padding-bottom: 13px;
+	padding-left: 24%;
+	color: #fff;
+}
+
+form .btn_logar{
+			    background:#73D5B9;
+			    margin: 20px;
+			    width: 100px;
+			    color: #fff;    
+			    border: 0px;
+			    border-radius: 15px;
+			    height: 30px;
+}
+#sexo{
+	color:#fff;
+	padding-left: 27%;
+	padding-bottom: 2%;
+	
+}
+#botao{
+	padding-left: 23%;
+}
+form .btn_logar a{
+	
+	color: #fff;
+	text-decoration: none;
+	background:#73D5B9;
+	
+	
+}
